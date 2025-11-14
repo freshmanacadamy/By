@@ -1,0 +1,18 @@
+{
+  "name": "vercel-telegram-webhook-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot using webhook suitable for Vercel deployment",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "set-webhook": "node setWebhook.js"
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
